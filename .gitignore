@@ -1,0 +1,23 @@
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate.*
+*.backup
+# Ignore Terraform cache
+.terraform/
+.terraform.lock.hcl
+
+# Ignore plan files
+*.tfplan
+
+# Ignore log files
+*.log
+
+# Ignore ZIP files (like Lambda deployment packages) if they are dynamically generated
+*.zip
+# Ignore all .exe files
+*.exe
+# Ignore all .exe files
+*.ex
+.ex
+.exe
